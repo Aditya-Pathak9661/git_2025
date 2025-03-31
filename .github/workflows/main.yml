@@ -1,0 +1,16 @@
+name:"aditya-workflow"
+#this is a normal yaml code
+on:
+  commit:
+    branch:
+      -master
+
+jobs:
+  hello_world:
+    runs_on: ubuntu-latest
+    steps:
+      -name: "print greeting"
+      run: echo"hello world!"
+
+      -name: "print current date"
+      run: date
