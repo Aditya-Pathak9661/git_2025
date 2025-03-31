@@ -1,11 +1,6 @@
-name:"aditya-workflow"
-#this is a normal yaml code
-jobs:
-  hello_world:
-    runs_on: ubuntu-latest
-    steps:
-      -name: "print greeting"
-      run: echo"hello world!"
-
-      -name: "print current date"
-      run: date
+name: aditya
+course: devops
+education:
+  -matric
+  -intermediate
+  -graduation
