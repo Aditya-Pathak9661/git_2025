@@ -1,0 +1,12 @@
+name: "Multi event pipeline /workflow of ci/cd"
+on:
+  push:
+    branches:
+      - master
+
+jods:
+  on-push:
+    runs-on:
+      steps:
+        -name: "running on master push"
+        run: echo "running on master branch push"
